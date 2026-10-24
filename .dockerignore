@@ -1,0 +1,6 @@
+**
+!Dockerfile
+!src
+!src/**
+!tests
+!tests/test_installed_package.py

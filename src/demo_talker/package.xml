@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package format="3">
+    <name>demo_talker</name>
+    <version>0.1.0</version>
+    <description>Minimal reproducible ROS 2 C++ build demonstration.</description>
+    <maintainer email="michal@nakoneczny.pl">Michal Nakoneczny</maintainer>
+    <license>Copyleft</license>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+
+    <depend version_eq="16.0.21">rclcpp</depend>
+    <depend version_eq="4.9.2">std_msgs</depend>
+
+    <test_depend version_eq="0.12.15">ament_flake8</test_depend>
+    <test_depend version_eq="0.19.14">launch_ros</test_depend>
+    <test_depend version_eq="1.0.15">launch_testing</test_depend>
+    <test_depend version_eq="0.19.14">launch_testing_ros</test_depend>
+
+    <export>
+        <build_type>ament_cmake</build_type>
+    </export>
+</package>
