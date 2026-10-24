@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="3">
     <name>demo_talker</name>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <description>Minimal reproducible ROS 2 C++ build demonstration.</description>
     <maintainer email="michal@nakoneczny.pl">Michal Nakoneczny</maintainer>
     <license>Copyleft</license>
